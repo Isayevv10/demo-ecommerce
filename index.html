@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+</head>
+<body>
+    
+    <header>
+        <div class="headline">
+
+            <div class="icon-menu"><img src="icon-menu.svg" alt=""> </div>
+            <nav class="menu hidden">
+                <div class="side-menu">
+                    <img class="icon-close" src="icon-close.svg" alt="">
+                    <ul>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <img src="logo.svg">
+            <ul>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+
+            <div class="avatar-icon">
+                <img class="btnBasket" src="icon-cart.svg" alt="">
+                <img src="image-avatar.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="cart hidden">
+            <div class="cart-header">Cart</div>
+            <div class="cart-products">
+                <div class="elements">
+                    <img src="image-product-1-thumbnail.jpg">
+                    <div class="details">
+                        <p> Autumn limited edition...</p>
+                        <div class="price-group">
+                            <div class="price">$125.00</div> x 
+                            <div class="count"> 3 </div>
+                            <div class="total-amount">$375.00</div>
+                        </div>
+                    </div>
+                    <img id="btnDelete" class="btnDelete" src="icon-delete.svg">
+                </div>
+            </div>
+            <div class="msg-empty">Your cart is empty</div>
+        </div>
+
+    </header>
+
+
+    <section class="section1">
+        <div class="grid-container">
+            <div class="item-1"> 
+                <div class="image-product">
+                    <img class="heroPic" src="image-product-1.jpg">
+                </div>
+                <div class="thumbnail-product">
+                    <div class="pic active"><img src="image-product-1-thumbnail.jpg"></div>                
+                    <div class="pic"><img src="image-product-2-thumbnail.jpg"></div>
+                    <div class="pic"><img src="image-product-3-thumbnail.jpg"></div>
+                    <div class="pic"><img src="image-product-4-thumbnail.jpg"></div>
+                </div>
+            </div>
+
+            <!-- mobile-gallery starts -->
+            <div class="mobile-version">
+                <div class="mobile-pic">
+                    <img class="heroPic2" src="image-product-1.jpg">
+                </div>
+                <div class="previous arrow">
+                    <img src="icon-previous.svg">
+                </div>
+                <div class="next arrow">
+                    <img src="icon-next.svg">
+                </div>
+            </div>
+            <!-- mobile-gallery ends -->
+
+
+            <div class="item-2">
+                <p>SNEAKER COMPANY</p>
+                <p>Fall Limited Edition <br/>Sneakers</p>
+                <p>
+                    These low - profile sneakers are yur perfect casual wear companion. 
+                    Featuring a durable rubber outer sole.<br/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="flex-container insideItem">
+                    <div class="item1">$125.00</div>
+                    <div class="item2">
+                        <div>50%</div>
+                    </div>
+                </div>
+                <div class="sale">$250.00</div>
+
+                <div class="flex-container counterContent">
+                    <div class="item_1">
+                        <div class="minus">
+                            <img src="icon-minus.svg" alt="">
+                        </div>
+                        <div class="countNumber"> 1 </div>
+                        <div class=plus> 
+                            <img src="icon-plus.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="item_2">
+                        <img src="icon-cart.svg">
+                        <p>Add to cart</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" 
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+    crossorigin="anonymous">
+    </script>
+   <script src="main.js"></script>
+</body>
+</html>
